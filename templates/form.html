@@ -1,0 +1,14 @@
+{%extends "base.html" %}
+{% block title  %}Upload Photo Page{% endblock %}
+
+{% block content %}
+<h2>Generate from URL</h2>
+<form action="#" method="post">
+    <label for="imgurl">Image URL:</label><br>
+    <input type="text" id="iu" name="imgurl"><br>
+    <label for="ttext">Top Text:</label><br>
+    <input type="text" id="tt" name="ttext"><br>
+    <label for="btext">Bottom Text:</label><br>
+    <input type="text" id="bt" name="btext"><br>
+    <input type="submit" value="submit">
+{% endblock %}
